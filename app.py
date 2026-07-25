@@ -6,7 +6,6 @@ st.set_page_config(
     layout="centered"
 )
 
-
 # ---------------- Session State ----------------
 if "expression" not in st.session_state:
     st.session_state.expression = ""
